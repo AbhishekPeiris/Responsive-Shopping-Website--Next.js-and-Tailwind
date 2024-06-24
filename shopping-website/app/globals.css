@@ -4,6 +4,6 @@
 
 @layer components {
     .header_top_icon_wrapper {
-        @apply bg-gray-200 rounded-md p-[6px] text-[14px] cursor-pointer hover:bg-accent hover:text-white;
+        @apply bg-gray-200 rounded-md p-[6px] text-[14px] cursor-pointer transition duration-500 ease-in-out hover:bg-accent hover:text-white;
     }
 }
